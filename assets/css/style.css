@@ -107,6 +107,34 @@
               font-size: 15px;
               font-weight: 600;
               color: black; }
+          .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            flex-wrap: wrap; }
+            .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content {
+              flex-basis: 50%; }
+              .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content ul {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 0; }
+                .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content ul li {
+                  display: inline-block; }
+                  .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content ul li.skills-text {
+                    width: 30%; }
+                  .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content ul li p {
+                    line-height: 4px;
+                    font-size: 12px;
+                    font-weight: 500; }
+                  .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content ul li div {
+                    vertical-align: middle;
+                    width: 12px;
+                    height: 12px;
+                    background: red;
+                    display: inline-block; }
+                    .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content ul li div.gray {
+                      background: #cccccc; }
           .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content {
             margin-top: -10px;
             display: flex;
