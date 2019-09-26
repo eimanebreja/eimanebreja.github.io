@@ -1,3 +1,9 @@
+.sp {
+  display: none; }
+
+.pc {
+  display: block; }
+
 .port-content {
   padding: 50px 0;
   display: flex;
@@ -164,5 +170,269 @@
               .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-company .postion-role p {
                 font-weight: 200;
                 font-size: 11px; }
+
+@media only screen and (max-width: 800px) {
+  .port-content {
+    padding: 50px 0;
+    display: flex;
+    justify-content: center;
+    justify-items: center; }
+    .port-content .port-bg {
+      background-color: #f5f5f5;
+      border: 1px solid #e5e5e5;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+      height: auto;
+      max-width: 900px;
+      width: 100%;
+      margin: 2%; }
+      .port-content .port-bg .port-bg-half {
+        display: flex;
+        flex-direction: row; }
+        .port-content .port-bg .port-bg-half .half-reference {
+          flex-basis: 65%;
+          padding-left: 10px;
+          padding-right: 10px; }
+          .port-content .port-bg .port-bg-half .half-reference .reference-container {
+            padding: 5px 10px 10px 20px; }
+            .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-header {
+              border-left: 2px solid red; }
+              .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-header h1 {
+                padding-left: 10px;
+                font-size: 15px;
+                font-weight: 600;
+                color: black; }
+            .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              flex-wrap: wrap; }
+              .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content {
+                flex-basis: 100%; }
+                .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content ul {
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  margin: 0; }
+                  .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content ul li {
+                    display: inline-block;
+                    width: 70%; }
+                    .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content ul li.skills-text {
+                      width: 30%; }
+                    .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content ul li p {
+                      line-height: 4px;
+                      font-size: 12px;
+                      font-weight: 500; }
+                    .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content ul li div {
+                      vertical-align: middle;
+                      width: 12px;
+                      height: 12px;
+                      background: red;
+                      display: inline-block; }
+                      .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content ul li div.gray {
+                        background: #cccccc; }
+            .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content {
+              margin-top: -10px;
+              display: flex;
+              flex-direction: row;
+              padding-bottom: 10px; }
+              .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-title {
+                flex-basis: 30%;
+                padding-left: 10px; }
+                .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-title p {
+                  letter-spacing: 2px;
+                  font-weight: 600;
+                  color: red;
+                  line-height: 4px;
+                  font-size: 13px; }
+                  .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-title p#date {
+                    font-size: 9px;
+                    letter-spacing: .5px;
+                    color: black;
+                    font-weight: 100; }
+              .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-company {
+                flex-basis: 70%; }
+                .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-company .company-name p {
+                  line-height: 4px;
+                  font-style: italic;
+                  font-size: 13px;
+                  font-weight: 500; }
+                .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-company .postion-role p {
+                  font-weight: 200;
+                  font-size: 11px; } }
+@media only screen and (max-width: 700px) {
+  .sp {
+    display: block; }
+
+  .pc {
+    display: none; }
+
+  .port-content {
+    padding: 0px 0px;
+    display: flex;
+    justify-content: center;
+    justify-items: center; }
+    .port-content .port-bg {
+      background-color: #f5f5f5;
+      border: 1px solid #e5e5e5;
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+      height: auto;
+      max-width: 900px;
+      width: 100%;
+      margin: 0% 2% 2%; }
+      .port-content .port-bg .port-bg-half {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; }
+        .port-content .port-bg .port-bg-half .half-about-me {
+          height: 100%;
+          background-color: black;
+          flex-basis: 100%;
+          padding: 10px; }
+          .port-content .port-bg .port-bg-half .half-about-me .about-profile-pic {
+            text-align: center; }
+            .port-content .port-bg .port-bg-half .half-about-me .about-profile-pic .image-content {
+              padding: 20px 20px 5px; }
+              .port-content .port-bg .port-bg-half .half-about-me .about-profile-pic .image-content img {
+                border-radius: 50%;
+                width: 30%;
+                height: auto; }
+          .port-content .port-bg .port-bg-half .half-about-me .about-profile-name h1 {
+            color: white;
+            font-size: 20px;
+            font-weight: 600;
+            letter-spacing: 2px;
+            line-height: 1px;
+            text-align: center; }
+            .port-content .port-bg .port-bg-half .half-about-me .about-profile-name h1#lastname {
+              color: red; }
+          .port-content .port-bg .port-bg-half .half-about-me .about-profile-name h2 {
+            font-size: 13px;
+            color: #f5f5f5;
+            letter-spacing: 1px; }
+          .port-content .port-bg .port-bg-half .half-about-me .about-profile-info {
+            padding: 5px 10px 0px 20px; }
+            .port-content .port-bg .port-bg-half .half-about-me .about-profile-info .profile-info-header {
+              border-left: 2px solid red; }
+              .port-content .port-bg .port-bg-half .half-about-me .about-profile-info .profile-info-header h1 {
+                padding-left: 10px;
+                font-size: 15px;
+                font-weight: 600;
+                color: #e5e5e5; }
+            .port-content .port-bg .port-bg-half .half-about-me .about-profile-info .profile-info-text p {
+              color: white;
+              font-size: 10px; }
+          .port-content .port-bg .port-bg-half .half-about-me .about-profile-contact {
+            padding: 5px 10px 10px 20px; }
+            .port-content .port-bg .port-bg-half .half-about-me .about-profile-contact .profile-contact-header {
+              border-left: 2px solid red; }
+              .port-content .port-bg .port-bg-half .half-about-me .about-profile-contact .profile-contact-header h1 {
+                padding-left: 10px;
+                font-size: 15px;
+                font-weight: 600;
+                color: #e5e5e5; }
+            .port-content .port-bg .port-bg-half .half-about-me .about-profile-contact .profile-contact-content {
+              padding-left: 20px; }
+              .port-content .port-bg .port-bg-half .half-about-me .about-profile-contact .profile-contact-content p {
+                display: flex;
+                flex-direction: row;
+                font-size: 12px; }
+                .port-content .port-bg .port-bg-half .half-about-me .about-profile-contact .profile-contact-content p span#icon {
+                  flex-basis: 10%;
+                  padding-right: 10px;
+                  color: red; }
+                .port-content .port-bg .port-bg-half .half-about-me .about-profile-contact .profile-contact-content p span#text {
+                  flex-basis: 50%;
+                  color: white; }
+          .port-content .port-bg .port-bg-half .half-about-me .about-profile-social {
+            padding: 5px 10px 10px 20px; }
+            .port-content .port-bg .port-bg-half .half-about-me .about-profile-social .profile-social-header {
+              border-left: 2px solid red; }
+              .port-content .port-bg .port-bg-half .half-about-me .about-profile-social .profile-social-header h1 {
+                padding-left: 10px;
+                font-size: 15px;
+                font-weight: 600;
+                color: #e5e5e5; }
+            .port-content .port-bg .port-bg-half .half-about-me .about-profile-social .profile-social-content {
+              padding-left: 20px; }
+              .port-content .port-bg .port-bg-half .half-about-me .about-profile-social .profile-social-content p {
+                display: flex;
+                flex-direction: column; }
+                .port-content .port-bg .port-bg-half .half-about-me .about-profile-social .profile-social-content p span#title {
+                  color: red;
+                  font-size: 14px; }
+                .port-content .port-bg .port-bg-half .half-about-me .about-profile-social .profile-social-content p span#subtitle a {
+                  color: #e5e5e5;
+                  font-size: 13px; }
+        .port-content .port-bg .port-bg-half .half-reference {
+          flex-basis: 100%;
+          padding-left: 5px;
+          padding-right: 10px; }
+          .port-content .port-bg .port-bg-half .half-reference .reference-container {
+            padding: 5px 10px 10px 20px; }
+            .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-header {
+              border-left: 2px solid red; }
+              .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-header h1 {
+                padding-left: 10px;
+                font-size: 17px;
+                font-weight: 600;
+                color: black; }
+            .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills {
+              display: flex;
+              flex-direction: row;
+              align-items: center;
+              flex-wrap: wrap; }
+              .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content {
+                flex-basis: 100%; }
+                .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content ul {
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  margin: 0; }
+                  .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content ul li {
+                    display: inline-block; }
+                    .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content ul li.skills-text {
+                      width: 30%; }
+                    .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content ul li p {
+                      line-height: 4px;
+                      font-size: 12px;
+                      font-weight: 500; }
+                    .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content ul li div {
+                      vertical-align: middle;
+                      width: 12px;
+                      height: 12px;
+                      background: red;
+                      display: inline-block; }
+                      .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content ul li div.gray {
+                        background: #cccccc; }
+            .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content {
+              margin-top: -10px;
+              display: flex;
+              flex-direction: column;
+              padding-bottom: 10px; }
+              .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-title {
+                flex-basis: 30%;
+                padding-left: 10px; }
+                .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-title p {
+                  letter-spacing: 2px;
+                  font-weight: 600;
+                  color: red;
+                  line-height: 4px;
+                  font-size: 13px; }
+                  .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-title p#date {
+                    font-size: 9px;
+                    letter-spacing: .5px;
+                    color: black;
+                    font-weight: 100; }
+              .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-company {
+                flex-basis: 70%;
+                padding-left: 10px; }
+                .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-company .company-name p {
+                  line-height: 4px;
+                  font-style: italic;
+                  font-size: 13px;
+                  font-weight: 500; }
+                .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-company .postion-role p {
+                  font-weight: 200;
+                  font-size: 11px; } }
 
 /*# sourceMappingURL=style.css.map */
