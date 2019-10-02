@@ -170,6 +170,24 @@
               .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-company .postion-role p {
                 font-weight: 200;
                 font-size: 11px; }
+          .port-content .port-bg .port-bg-half .half-reference .reference-container .project-cnt ul {
+            padding-left: 5%;
+            list-style: none; }
+            .port-content .port-bg .port-bg-half .half-reference .reference-container .project-cnt ul li {
+              margin: 0 !important; }
+              .port-content .port-bg .port-bg-half .half-reference .reference-container .project-cnt ul li::before {
+                content: "\203A";
+                color: red;
+                font-weight: bold;
+                display: inline-block;
+                width: 1em;
+                margin-left: -1em; }
+              .port-content .port-bg .port-bg-half .half-reference .reference-container .project-cnt ul li a {
+                color: black;
+                font-size: 12px;
+                color: black;
+                font-weight: 500;
+                letter-spacing: .8px; }
 
 @media only screen and (max-width: 800px) {
   .port-content {
