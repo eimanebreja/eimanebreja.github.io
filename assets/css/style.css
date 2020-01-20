@@ -455,6 +455,8 @@
                   font-weight: 500; }
                 .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-company .postion-role p {
                   font-weight: 200;
-                  font-size: 11px; } }
+                  font-size: 11px; }
+            .port-content .port-bg .port-bg-half .half-reference .reference-container .project-cnt ul li {
+              flex-basis: 40%; } }
 
 /*# sourceMappingURL=style.css.map */
