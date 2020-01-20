@@ -172,8 +172,12 @@
                 font-size: 11px; }
           .port-content .port-bg .port-bg-half .half-reference .reference-container .project-cnt ul {
             padding-left: 5%;
-            list-style: none; }
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap; }
             .port-content .port-bg .port-bg-half .half-reference .reference-container .project-cnt ul li {
+              flex-basis: 30%;
               margin: 0 !important; }
               .port-content .port-bg .port-bg-half .half-reference .reference-container .project-cnt ul li::before {
                 content: "\203A";
