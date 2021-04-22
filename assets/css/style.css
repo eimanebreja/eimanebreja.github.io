@@ -1,8 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
 .sp {
   display: none; }
 
 .pc {
   display: block; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #000000;
+  margin: 0;
+  font-family: "Roboto", sans-serif; }
 
 .port-content {
   padding: 50px 0;
@@ -15,8 +30,7 @@
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
     height: auto;
     max-width: 900px;
-    width: 100%;
-    margin: 2%; }
+    width: 100%; }
     .port-content .port-bg .port-bg-half {
       display: flex;
       flex-direction: row; }
@@ -24,7 +38,7 @@
         height: 100%;
         background-color: black;
         flex-basis: 35%;
-        padding: 10px; }
+        padding: 10px 10px 20px; }
         .port-content .port-bg .port-bg-half .half-about-me .about-profile-pic {
           text-align: center; }
           .port-content .port-bg .port-bg-half .half-about-me .about-profile-pic .image-content {
@@ -38,50 +52,58 @@
           font-size: 20px;
           font-weight: 600;
           letter-spacing: 2px;
-          line-height: 1px;
+          line-height: 1.3;
           text-align: center; }
           .port-content .port-bg .port-bg-half .half-about-me .about-profile-name h1#lastname {
             color: red; }
-        .port-content .port-bg .port-bg-half .half-about-me .about-profile-name h2 {
-          font-size: 13px;
-          color: #f5f5f5;
-          letter-spacing: 1px; }
         .port-content .port-bg .port-bg-half .half-about-me .about-profile-info {
-          padding: 5px 10px 0px 20px; }
+          padding: 20px 10px 0px 20px; }
           .port-content .port-bg .port-bg-half .half-about-me .about-profile-info .profile-info-header {
             border-left: 2px solid red; }
             .port-content .port-bg .port-bg-half .half-about-me .about-profile-info .profile-info-header h1 {
               padding-left: 10px;
               font-size: 15px;
               font-weight: 600;
-              color: #e5e5e5; }
-          .port-content .port-bg .port-bg-half .half-about-me .about-profile-info .profile-info-text p {
-            color: white;
-            font-size: 10px; }
+              color: #e5e5e5;
+              line-height: 1.2; }
+          .port-content .port-bg .port-bg-half .half-about-me .about-profile-info .profile-info-text {
+            padding-top: 10px; }
+            .port-content .port-bg .port-bg-half .half-about-me .about-profile-info .profile-info-text p {
+              color: white;
+              font-size: 10px;
+              line-height: 1.4; }
+            .port-content .port-bg .port-bg-half .half-about-me .about-profile-info .profile-info-text .objective {
+              padding-top: 10px; }
+              .port-content .port-bg .port-bg-half .half-about-me .about-profile-info .profile-info-text .objective span {
+                font-weight: 700; }
         .port-content .port-bg .port-bg-half .half-about-me .about-profile-contact {
-          padding: 5px 10px 10px 20px; }
+          padding: 20px 10px 10px 20px; }
           .port-content .port-bg .port-bg-half .half-about-me .about-profile-contact .profile-contact-header {
             border-left: 2px solid red; }
             .port-content .port-bg .port-bg-half .half-about-me .about-profile-contact .profile-contact-header h1 {
               padding-left: 10px;
               font-size: 15px;
               font-weight: 600;
-              color: #e5e5e5; }
+              color: #e5e5e5;
+              line-height: 1.2; }
           .port-content .port-bg .port-bg-half .half-about-me .about-profile-contact .profile-contact-content {
             padding-left: 20px; }
             .port-content .port-bg .port-bg-half .half-about-me .about-profile-contact .profile-contact-content p {
+              padding-top: 10px;
               display: flex;
               flex-direction: row;
-              font-size: 12px; }
+              font-size: 12px;
+              line-height: 1.5; }
               .port-content .port-bg .port-bg-half .half-about-me .about-profile-contact .profile-contact-content p span#icon {
                 flex-basis: 10%;
                 padding-right: 10px;
-                color: red; }
+                color: red;
+                text-align: center; }
               .port-content .port-bg .port-bg-half .half-about-me .about-profile-contact .profile-contact-content p span#text {
                 flex-basis: 50%;
                 color: white; }
         .port-content .port-bg .port-bg-half .half-about-me .about-profile-social {
-          padding: 5px 10px 10px 20px; }
+          padding: 20px 10px 40px 20px; }
           .port-content .port-bg .port-bg-half .half-about-me .about-profile-social .profile-social-header {
             border-left: 2px solid red; }
             .port-content .port-bg .port-bg-half .half-about-me .about-profile-social .profile-social-header h1 {
@@ -92,12 +114,14 @@
           .port-content .port-bg .port-bg-half .half-about-me .about-profile-social .profile-social-content {
             padding-left: 20px; }
             .port-content .port-bg .port-bg-half .half-about-me .about-profile-social .profile-social-content p {
+              padding-top: 15px;
               display: flex;
               flex-direction: column; }
               .port-content .port-bg .port-bg-half .half-about-me .about-profile-social .profile-social-content p span#title {
                 color: red;
                 font-size: 14px; }
               .port-content .port-bg .port-bg-half .half-about-me .about-profile-social .profile-social-content p span#subtitle a {
+                text-decoration: none;
                 color: #e5e5e5;
                 font-size: 13px; }
       .port-content .port-bg .port-bg-half .half-reference {
@@ -105,13 +129,15 @@
         padding-left: 10px;
         padding-right: 10px; }
         .port-content .port-bg .port-bg-half .half-reference .reference-container {
-          padding: 5px 10px 10px 20px; }
+          padding: 10px 10px 10px 20px; }
           .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-header {
+            margin-top: 20px;
             border-left: 2px solid red; }
             .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-header h1 {
               padding-left: 10px;
               font-size: 15px;
               font-weight: 600;
+              line-height: 1.5;
               color: black; }
           .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills {
             display: flex;
@@ -126,11 +152,12 @@
                 justify-content: center;
                 margin: 0; }
                 .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content ul li {
+                  padding-top: 10px;
                   display: inline-block; }
                   .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content ul li.skills-text {
                     width: 30%; }
                   .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content ul li p {
-                    line-height: 4px;
+                    line-height: 1.2;
                     font-size: 12px;
                     font-weight: 500; }
                   .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content ul li div {
@@ -142,7 +169,7 @@
                     .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content ul li div.gray {
                       background: #cccccc; }
           .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content {
-            margin-top: -10px;
+            margin-top: 10px;
             display: flex;
             flex-direction: row;
             padding-bottom: 10px; }
@@ -153,45 +180,60 @@
                 letter-spacing: 2px;
                 font-weight: 600;
                 color: red;
-                line-height: 4px;
+                line-height: 1.2;
                 font-size: 13px; }
                 .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-title p#date {
+                  padding-top: 10px;
                   font-size: 9px;
-                  letter-spacing: .5px;
+                  letter-spacing: 0.5px;
                   color: black;
                   font-weight: 100; }
             .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-company {
               flex-basis: 70%; }
               .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-company .company-name p {
-                line-height: 4px;
+                line-height: 1.2;
                 font-style: italic;
                 font-size: 13px;
-                font-weight: 500; }
-              .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-company .postion-role p {
-                font-weight: 200;
-                font-size: 11px; }
-          .port-content .port-bg .port-bg-half .half-reference .reference-container .project-cnt ul {
-            padding-left: 5%;
-            list-style: none;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap; }
-            .port-content .port-bg .port-bg-half .half-reference .reference-container .project-cnt ul li {
-              flex-basis: 30%;
-              margin: 0 !important; }
-              .port-content .port-bg .port-bg-half .half-reference .reference-container .project-cnt ul li::before {
-                content: "\203A";
-                color: red;
-                font-weight: bold;
-                display: inline-block;
-                width: 1em;
-                margin-left: -1em; }
-              .port-content .port-bg .port-bg-half .half-reference .reference-container .project-cnt ul li a {
-                color: black;
-                font-size: 12px;
-                color: black;
-                font-weight: 500;
-                letter-spacing: .8px; }
+                font-weight: 700; }
+              .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-company .postion-role {
+                padding-top: 5px; }
+                .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-company .postion-role li {
+                  list-style: none;
+                  font-weight: 200;
+                  font-size: 11px;
+                  line-height: 1.4; }
+                  .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-company .postion-role li::before {
+                    content: "\203A";
+                    font-weight: bold;
+                    display: inline-block;
+                    width: 1em;
+                    margin-left: -1em; }
+          .port-content .port-bg .port-bg-half .half-reference .reference-container .project-cnt {
+            padding-top: 10px; }
+            .port-content .port-bg .port-bg-half .half-reference .reference-container .project-cnt ul {
+              padding-left: 5%;
+              list-style: none;
+              display: flex;
+              flex-direction: row;
+              flex-wrap: wrap; }
+              .port-content .port-bg .port-bg-half .half-reference .reference-container .project-cnt ul li {
+                padding-top: 5px;
+                flex-basis: 30%;
+                margin: 0 !important; }
+                .port-content .port-bg .port-bg-half .half-reference .reference-container .project-cnt ul li::before {
+                  content: "\203A";
+                  color: red;
+                  font-weight: bold;
+                  display: inline-block;
+                  width: 1em;
+                  margin-left: -1em; }
+                .port-content .port-bg .port-bg-half .half-reference .reference-container .project-cnt ul li a {
+                  font-size: 12px;
+                  color: black;
+                  font-weight: 500;
+                  letter-spacing: 0.8px;
+                  line-height: 1.4;
+                  text-decoration: none; }
 
 @media only screen and (max-width: 800px) {
   .port-content {
@@ -268,7 +310,7 @@
                   font-size: 13px; }
                   .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-title p#date {
                     font-size: 9px;
-                    letter-spacing: .5px;
+                    letter-spacing: 0.5px;
                     color: black;
                     font-weight: 100; }
               .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-company {
@@ -300,7 +342,7 @@
       height: auto;
       max-width: 900px;
       width: 100%;
-      margin: 0% 2% 2%; }
+      margin: 0%; }
       .port-content .port-bg .port-bg-half {
         display: flex;
         flex-direction: row;
@@ -309,7 +351,7 @@
           height: 100%;
           background-color: black;
           flex-basis: 100%;
-          padding: 10px; }
+          padding: 20px 10px 10px 10px; }
           .port-content .port-bg .port-bg-half .half-about-me .about-profile-pic {
             text-align: center; }
             .port-content .port-bg .port-bg-half .half-about-me .about-profile-pic .image-content {
@@ -318,38 +360,35 @@
                 border-radius: 50%;
                 width: 30%;
                 height: auto; }
-          .port-content .port-bg .port-bg-half .half-about-me .about-profile-name h1 {
-            color: white;
-            font-size: 20px;
-            font-weight: 600;
-            letter-spacing: 2px;
-            line-height: 1px;
-            text-align: center; }
-            .port-content .port-bg .port-bg-half .half-about-me .about-profile-name h1#lastname {
-              color: red; }
-          .port-content .port-bg .port-bg-half .half-about-me .about-profile-name h2 {
-            font-size: 13px;
-            color: #f5f5f5;
-            letter-spacing: 1px; }
+          .port-content .port-bg .port-bg-half .half-about-me .about-profile-name {
+            padding-top: 10px; }
+            .port-content .port-bg .port-bg-half .half-about-me .about-profile-name h1 {
+              color: white;
+              font-size: 20px;
+              font-weight: 600;
+              letter-spacing: 2px;
+              text-align: center; }
+              .port-content .port-bg .port-bg-half .half-about-me .about-profile-name h1#lastname {
+                color: red; }
           .port-content .port-bg .port-bg-half .half-about-me .about-profile-info {
-            padding: 5px 10px 0px 20px; }
+            padding: 20px 10px 0px 20px; }
             .port-content .port-bg .port-bg-half .half-about-me .about-profile-info .profile-info-header {
               border-left: 2px solid red; }
               .port-content .port-bg .port-bg-half .half-about-me .about-profile-info .profile-info-header h1 {
                 padding-left: 10px;
-                font-size: 15px;
+                font-size: 16px;
                 font-weight: 600;
                 color: #e5e5e5; }
             .port-content .port-bg .port-bg-half .half-about-me .about-profile-info .profile-info-text p {
               color: white;
-              font-size: 10px; }
+              font-size: 12px; }
           .port-content .port-bg .port-bg-half .half-about-me .about-profile-contact {
-            padding: 5px 10px 10px 20px; }
+            padding: 20px 10px 10px 20px; }
             .port-content .port-bg .port-bg-half .half-about-me .about-profile-contact .profile-contact-header {
               border-left: 2px solid red; }
               .port-content .port-bg .port-bg-half .half-about-me .about-profile-contact .profile-contact-header h1 {
                 padding-left: 10px;
-                font-size: 15px;
+                font-size: 16px;
                 font-weight: 600;
                 color: #e5e5e5; }
             .port-content .port-bg .port-bg-half .half-about-me .about-profile-contact .profile-contact-content {
@@ -366,7 +405,7 @@
                   flex-basis: 50%;
                   color: white; }
           .port-content .port-bg .port-bg-half .half-about-me .about-profile-social {
-            padding: 5px 10px 10px 20px; }
+            padding: 20px 10px 20px 20px; }
             .port-content .port-bg .port-bg-half .half-about-me .about-profile-social .profile-social-header {
               border-left: 2px solid red; }
               .port-content .port-bg .port-bg-half .half-about-me .about-profile-social .profile-social-header h1 {
@@ -390,14 +429,15 @@
           padding-left: 5px;
           padding-right: 10px; }
           .port-content .port-bg .port-bg-half .half-reference .reference-container {
-            padding: 5px 10px 10px 20px; }
+            padding: 10px 10px 40px 20px; }
             .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-header {
               border-left: 2px solid red; }
               .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-header h1 {
                 padding-left: 10px;
                 font-size: 17px;
                 font-weight: 600;
-                color: black; }
+                color: black;
+                line-height: 1.2; }
             .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills {
               display: flex;
               flex-direction: row;
@@ -427,32 +467,33 @@
                       .port-content .port-bg .port-bg-half .half-reference .reference-container .prof-skills .skills-content ul li div.gray {
                         background: #cccccc; }
             .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content {
-              margin-top: -10px;
+              margin-top: 20px;
               display: flex;
               flex-direction: column;
               padding-bottom: 10px; }
               .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-title {
-                flex-basis: 30%;
+                flex-basis: 100%;
                 padding-left: 10px; }
                 .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-title p {
                   letter-spacing: 2px;
                   font-weight: 600;
                   color: red;
-                  line-height: 4px;
                   font-size: 13px; }
                   .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-title p#date {
                     font-size: 9px;
-                    letter-spacing: .5px;
+                    letter-spacing: 0.5px;
                     color: black;
                     font-weight: 100; }
               .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-company {
-                flex-basis: 70%;
+                flex-basis: 100%;
                 padding-left: 10px; }
-                .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-company .company-name p {
-                  line-height: 4px;
-                  font-style: italic;
-                  font-size: 13px;
-                  font-weight: 500; }
+                .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-company .company-name {
+                  padding-top: 10px; }
+                  .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-company .company-name p {
+                    line-height: 1.4;
+                    font-style: italic;
+                    font-size: 13px;
+                    font-weight: 500; }
                 .port-content .port-bg .port-bg-half .half-reference .reference-container .reference-content .content-company .postion-role p {
                   font-weight: 200;
                   font-size: 11px; }

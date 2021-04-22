@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Nimuel Eiman Nebreja</title>
+    <link rel="icon" type="image/png" href="assets/images/eiman_cartoon.png" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css"
+        rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+    <section>
+        <div class="container-view">
+            <div class="port-content">
+                <div class="port-bg">
+                    <div class="port-bg-half">
+                        <div class="half-about-me">
+                            <div class="about-profile-pic">
+                                <div class="image-content">
+                                    <img src="assets/images/eiman_cartoon.png" />
+                                </div>
+                            </div>
+                            <div class="about-profile-name">
+                                <h1 class="pc">NIMUEL EIMAN</h1>
+                                <h1 class="pc" id="lastname">NEBREJA</h1>
+                                <h1 class="sp">NIMUEL EIMAN NEBREJA</h1>
+                            </div>
+                            <div class="about-profile-info">
+                                <div class="profile-info-header">
+                                    <h1>PROFILE</h1>
+                                </div>
+                                <div class="profile-info-text">
+                                    <p>
+                                        A committed, fast-learning web developer with +2 years of experience and passion
+                                        in web development. Proficient in providing excellent customer
+                                        satisfaction.A persistent hard worker possess considerable knowledge, always
+                                        open for newchallenges that can allow me to explore and continuously improve my
+                                        skills.
+
+                                    </p>
+                                    <p class="objective">
+                                        <span>Objective:</span> Looking for a suitable developer position with an
+                                        ambitious and a long termemployment.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="about-profile-contact">
+                                <div class="profile-contact-header">
+                                    <h1>CONTACT</h1>
+                                </div>
+                                <div class="profile-contact-content">
+                                    <p>
+                                        <span id="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                                        <span id="text">+639759542126</span>
+                                    </p>
+                                    <p>
+                                        <span id="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                                        <span id="text">nimuel24@gmail.com</span>
+                                    </p>
+                                    <p>
+                                        <span id="icon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                                        <span id="text">Lian, Batangas</span>
+                                    </p>
+                                    <p>
+                                        <span id="icon"><i class="fa fa-location-arrow" aria-hidden="true"></i></span>
+                                        <span id="text">Makati City</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="about-profile-social">
+                                <div class="profile-social-header">
+                                    <h1>SOCIAL ME</h1>
+                                </div>
+                                <div class="profile-social-content">
+                                    <p>
+                                        <span id="title">LINKEDIN :</span>
+                                        <span id="subtitle"><a
+                                                href="https://www.linkedin.com/in/nimuel-eiman/">@nimuel-eiman</a></span>
+                                    </p>
+                                    <p>
+                                        <span id="title">GITHUB :</span>
+                                        <span id="subtitle"><a
+                                                href="https://github.com/eimanebreja">@eimanebreja</a></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="half-reference">
+                            <div class="reference-container">
+                                <div class="reference-header">
+                                    <h1>WORK EXPERIENCE</h1>
+                                </div>
+                                <div class="reference-content">
+                                    <div class="content-title">
+                                        <p class="pc">DATA</p>
+                                        <p class="pc" id="postion">ENTRY</p>
+                                        <p class="sp">DATA ENTRY</p>
+                                        <p id="date">February 28 - May 18, 2018</p>
+                                    </div>
+                                    <div class="content-company">
+                                        <div class="company-name">
+                                            <p>BATANGAS 1 ELECTRIC COOPERATIVE, INC.</p>
+                                        </div>
+                                        <div class="postion-role">
+                                            <ul>
+                                                <li>Producing daily report. Updating the existing data and
+                                                    creating reconnection service report. </li>
+                                                <li>Create and
+                                                    manage the kwh meter in spreadsheets. </li>
+                                                <li>Transfer data
+                                                    from paper produced by lineman into system of the
+                                                    company. </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="reference-content">
+                                    <div class="content-title">
+                                        <p class="pc">WEB</p>
+                                        <p class="pc" id="postion">DEVELOPER</p>
+                                        <p class="sp">WEB DEVELOPER</p>
+                                        <p id="date">August 1, 2018 - Present</p>
+                                    </div>
+                                    <div class="content-company">
+                                        <div class="company-name">
+                                            <p>FEEMO GLOBAL SOLUTIONS PHILIPPINES</p>
+                                        </div>
+                                        <div class="postion-role">
+                                            <ul>
+                                                <li>Developing responsive design websites. Working with
+                                                    debugging tools Chrome inspector.</li>
+                                                <li>Test the website and
+                                                    identify technical problems upload the site onto the
+                                                    server (xserver).</li>
+                                                <li>Maintenance or updating of websites
+                                                    including testing and identifying technical problems
+                                                    and trouble-shooting.</li>
+                                                <li>Helping formulate an effective, responsive design and turning it
+                                                    into a working theme and plugin.</li>
+                                                <li>Maintain and develop E-Commerce platforms
+                                                    and administer changes to the user interface and/or back-end data
+                                                    architecture database.</li>
+                                                <li>Create landing pages, layout pages and integrate plugins as needed.
+                                                </li>
+                                                <li>Monitoring the performance of the live website.</li>
+
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="reference-header">
+                                    <h1>EDUCATION</h1>
+                                </div>
+                                <div class="reference-content">
+                                    <div class="content-title">
+                                        <p class="pc">BACHELOR</p>
+                                        <p class="pc" id="postion">DEGREE</p>
+                                        <p class="sp">BACHELOR DEGREE</p>
+                                        <p id="date">AUGUST - JUNE 2018</p>
+                                    </div>
+                                    <div class="content-company">
+                                        <div class="company-name">
+                                            <p>BATANGAS STATE UNIVERSITY ARASOF CAMPUS</p>
+                                        </div>
+                                        <div class="postion-role">
+                                            <p>Bachelor of Science in Information Technology</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="reference-header">
+                                    <h1>SKILLS</h1>
+                                </div>
+                                <div class="prof-skills">
+                                    <div class="skills-content">
+                                        <ul>
+                                            <li class="skills-text">
+                                                <p>PHP</p>
+                                            </li>
+                                            <li>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div class="gray"></div>
+                                                <div class="gray"></div>
+                                                <div class="gray"></div>
+                                                <div class="gray"></div>
+                                                <div class="gray"></div>
+                                                <div class="gray"></div>
+                                            </li>
+                                        </ul>
+
+                                        <ul>
+                                            <li class="skills-text">
+                                                <p>JAVASCRIPT</p>
+                                            </li>
+                                            <li>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div class="gray"></div>
+                                                <div class="gray"></div>
+                                                <div class="gray"></div>
+                                                <div class="gray"></div>
+                                                <div class="gray"></div>
+                                                <div class="gray"></div>
+                                                <div class="gray"></div>
+                                            </li>
+                                        </ul>
+
+                                        <ul>
+                                            <li class="skills-text">
+                                                <p>WORDPRESS</p>
+                                            </li>
+                                            <li>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div class="gray"></div>
+                                                <div class="gray"></div>
+                                                <div class="gray"></div>
+                                                <div class="gray"></div>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="skills-content">
+                                        <ul>
+                                            <li class="skills-text">
+                                                <p>HTML5</p>
+                                            </li>
+                                            <li>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div class="gray"></div>
+                                                <div class="gray"></div>
+                                            </li>
+                                        </ul>
+
+                                        <ul>
+                                            <li class="skills-text">
+                                                <p>CSS</p>
+                                            </li>
+                                            <li>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div class="gray"></div>
+                                                <div class="gray"></div>
+                                                <div class="gray"></div>
+                                            </li>
+                                        </ul>
+
+                                        <ul>
+                                            <li class="skills-text">
+                                                <p>LARAVEL</p>
+                                            </li>
+                                            <li>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div></div>
+                                                <div class="gray"></div>
+                                                <div class="gray"></div>
+                                                <div class="gray"></div>
+                                                <div class="gray"></div>
+                                                <div class="gray"></div>
+                                                <div class="gray"></div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="reference-header">
+                                    <h1>PROJECTS</h1>
+                                </div>
+                                <div class="project-cnt">
+                                    <ul class="project-list">
+                                        <li class="project-link">
+                                            <a target="_blank" href="https://fgsp.ph/">FGSP</a>
+                                        </li>
+                                        <li class="project-link">
+                                            <a target="_blank" href="https://carhome.jp/">CARHOME</a>
+                                        </li>
+                                        <li class="project-link">
+                                            <a target="_blank" href="http://omtpi.com.ph/eng/">OMTPI</a>
+                                        </li>
+                                        <li class="project-link">
+                                            <a target="_blank" href="https://letscan.jp/">LETSCAN</a>
+                                        </li>
+                                        <li class="project-link">
+                                            <a target="_blank" href="https://www.raisingfunds.biz/">RAISINGFUNDS</a>
+                                        </li>
+                                        <li class="project-link">
+                                            <a target="_blank" href="https://pasito.jp/">PASITO</a>
+                                        </li>
+                                        <li class="project-link">
+                                            <a target="_blank" href="http://alive-d.co.jp/">ALIVE-D</a>
+                                        </li>
+                                        <li class="project-link">
+                                            <a target="_blank" href="https://takahara-kougyou.jp/">TAKAHARA</a>
+                                        </li>
+                                        <li class="project-link">
+                                            <a target="_blank" href="https://onedaysmile-implant.jp/lp/">ONEDAYSMILE</a>
+                                        </li>
+                                        <li class="project-link">
+                                            <a target="_blank" href="https://www.ones092.jp/">ONES092</a>
+                                        </li>
+                                        <li class="project-link">
+                                            <a target="_blank" href="https://eimanebreja.github.io/tkf/">TKF</a>
+                                        </li>
+                                        <li class="project-link">
+                                            <a target="_blank" href="https://eimanebreja.github.io/toyota/">TOYOTA</a>
+                                        </li>
+                                        <li class="project-link">
+                                            <a target="_blank" href="https://eimanebreja.github.io/shimz/">SHIMZ</a>
+                                        </li>
+                                        <li class="project-link">
+                                            <a target="_blank" href="https://eimanebreja.github.io/hottab/">HOTTAB</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="assets/js/jquery-2.2.1.min.js"></script>
+
+
+</html>

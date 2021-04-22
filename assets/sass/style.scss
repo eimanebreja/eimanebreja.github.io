@@ -1,9 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
 .sp {
   display: none;
 }
 
 .pc {
   display: block;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #000000;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 .port-content {
@@ -15,17 +33,16 @@
   .port-bg {
     background-color: #f5f5f5;
     border: 1px solid #e5e5e5;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
     height: auto;
     max-width: 900px;
     width: 100%;
-    margin: 2%;
+    // margin: 2%;
 
     // :hover {
     //     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     //     transition: 0.5s;
     // }
-
 
     .port-bg-half {
       display: flex;
@@ -35,7 +52,7 @@
         height: 100%;
         background-color: black;
         flex-basis: 35%;
-        padding: 10px;
+        padding: 10px 10px 20px;
 
         .about-profile-pic {
           text-align: center;
@@ -52,29 +69,22 @@
         }
 
         .about-profile-name {
-
           h1 {
             color: white;
             font-size: 20px;
             font-weight: 600;
             letter-spacing: 2px;
-            line-height: 1px;
+            line-height: 1.3;
             text-align: center;
 
             &#lastname {
               color: red;
             }
           }
-
-          h2 {
-            font-size: 13px;
-            color: #f5f5f5;
-            letter-spacing: 1px;
-          }
         }
 
         .about-profile-info {
-          padding: 5px 10px 0px 20px;
+          padding: 20px 10px 0px 20px;
 
           .profile-info-header {
             border-left: 2px solid red;
@@ -84,22 +94,29 @@
               font-size: 15px;
               font-weight: 600;
               color: #e5e5e5;
+              line-height: 1.2;
             }
           }
 
           .profile-info-text {
-
-
+            padding-top: 10px;
             p {
-
               color: white;
               font-size: 10px;
+              line-height: 1.4;
+            }
+
+            .objective {
+              padding-top: 10px;
+              span {
+                font-weight: 700;
+              }
             }
           }
         }
 
         .about-profile-contact {
-          padding: 5px 10px 10px 20px;
+          padding: 20px 10px 10px 20px;
 
           .profile-contact-header {
             border-left: 2px solid red;
@@ -109,6 +126,7 @@
               font-size: 15px;
               font-weight: 600;
               color: #e5e5e5;
+              line-height: 1.2;
             }
           }
 
@@ -116,24 +134,23 @@
             padding-left: 20px;
 
             p {
+              padding-top: 10px;
               display: flex;
               flex-direction: row;
               font-size: 12px;
+              line-height: 1.5;
 
               span {
-
-
                 &#icon {
                   flex-basis: 10%;
                   padding-right: 10px;
                   color: red;
-
+                  text-align: center;
                 }
 
                 &#text {
                   flex-basis: 50%;
                   color: white;
-
                 }
               }
             }
@@ -141,7 +158,7 @@
         }
 
         .about-profile-social {
-          padding: 5px 10px 10px 20px;
+          padding: 20px 10px 40px 20px;
 
           .profile-social-header {
             border-left: 2px solid red;
@@ -158,6 +175,7 @@
             padding-left: 20px;
 
             p {
+              padding-top: 15px;
               display: flex;
               flex-direction: column;
 
@@ -169,6 +187,7 @@
 
                 &#subtitle {
                   a {
+                    text-decoration: none;
                     color: #e5e5e5;
                     font-size: 13px;
                   }
@@ -185,15 +204,17 @@
         padding-right: 10px;
 
         .reference-container {
-          padding: 5px 10px 10px 20px;
+          padding: 10px 10px 10px 20px;
 
           .reference-header {
+            margin-top: 20px;
             border-left: 2px solid red;
 
             h1 {
               padding-left: 10px;
               font-size: 15px;
               font-weight: 600;
+              line-height: 1.5;
               color: black;
             }
           }
@@ -203,7 +224,6 @@
             flex-direction: row;
             align-items: center;
             flex-wrap: wrap;
-
 
             .skills-content {
               flex-basis: 50%;
@@ -215,6 +235,7 @@
                 margin: 0;
 
                 li {
+                  padding-top: 10px;
                   display: inline-block;
 
                   &.skills-text {
@@ -222,10 +243,9 @@
                   }
 
                   p {
-                    line-height: 4px;
+                    line-height: 1.2;
                     font-size: 12px;
                     font-weight: 500;
-
                   }
 
                   div {
@@ -237,9 +257,7 @@
 
                     &.gray {
                       background: #cccccc;
-
                     }
-
                   }
                 }
               }
@@ -247,7 +265,7 @@
           }
 
           .reference-content {
-            margin-top: -10px;
+            margin-top: 10px;
             display: flex;
             flex-direction: row;
             padding-bottom: 10px;
@@ -260,19 +278,17 @@
                 letter-spacing: 2px;
                 font-weight: 600;
                 color: red;
-                line-height: 4px;
+                line-height: 1.2;
                 font-size: 13px;
 
                 &#date {
+                  padding-top: 10px;
                   font-size: 9px;
-                  letter-spacing: .5px;
+                  letter-spacing: 0.5px;
                   color: black;
                   font-weight: 100;
-
                 }
               }
-
-
             }
 
             .content-company {
@@ -280,25 +296,34 @@
 
               .company-name {
                 p {
-                  line-height: 4px;
+                  line-height: 1.2;
                   font-style: italic;
                   font-size: 13px;
-                  font-weight: 500;
-
+                  font-weight: 700;
                 }
               }
 
               .postion-role {
-                p {
+                padding-top: 5px;
+                li {
+                  list-style: none;
                   font-weight: 200;
                   font-size: 11px;
+                  line-height: 1.4;
+                  &::before {
+                    content: "\203A";
+                    font-weight: bold;
+                    display: inline-block;
+                    width: 1em;
+                    margin-left: -1em;
+                  }
                 }
               }
-
             }
           }
 
           .project-cnt {
+            padding-top: 10px;
             ul {
               padding-left: 5%;
               list-style: none;
@@ -306,11 +331,10 @@
               flex-direction: row;
               flex-wrap: wrap;
 
-
               li {
+                padding-top: 5px;
                 flex-basis: 30%;
                 margin: 0 !important;
-
 
                 &::before {
                   content: "\203A";
@@ -319,17 +343,16 @@
                   display: inline-block;
                   width: 1em;
                   margin-left: -1em;
-
                 }
 
                 a {
-                  color: black;
                   font-size: 12px;
                   color: black;
                   font-weight: 500;
-                  letter-spacing: .8px;
+                  letter-spacing: 0.8px;
+                  line-height: 1.4;
+                  text-decoration: none;
                 }
-
               }
             }
           }
@@ -349,7 +372,7 @@
     .port-bg {
       background-color: #f5f5f5;
       border: 1px solid #e5e5e5;
-      box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
       height: auto;
       max-width: 900px;
       width: 100%;
@@ -359,7 +382,6 @@
       //     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
       //     transition: 0.5s;
       // }
-
 
       .port-bg-half {
         display: flex;
@@ -390,7 +412,6 @@
               align-items: center;
               flex-wrap: wrap;
 
-
               .skills-content {
                 flex-basis: 100%;
 
@@ -412,7 +433,6 @@
                       line-height: 4px;
                       font-size: 12px;
                       font-weight: 500;
-
                     }
 
                     div {
@@ -424,9 +444,7 @@
 
                       &.gray {
                         background: #cccccc;
-
                       }
-
                     }
                   }
                 }
@@ -452,14 +470,11 @@
 
                   &#date {
                     font-size: 9px;
-                    letter-spacing: .5px;
+                    letter-spacing: 0.5px;
                     color: black;
                     font-weight: 100;
-
                   }
                 }
-
-
               }
 
               .content-company {
@@ -471,7 +486,6 @@
                     font-style: italic;
                     font-size: 13px;
                     font-weight: 500;
-
                   }
                 }
 
@@ -481,7 +495,6 @@
                     font-size: 11px;
                   }
                 }
-
               }
             }
           }
@@ -492,7 +505,6 @@
 }
 
 @media only screen and (max-width: 700px) {
-
   .sp {
     display: block;
   }
@@ -510,17 +522,16 @@
     .port-bg {
       background-color: #f5f5f5;
       border: 1px solid #e5e5e5;
-      box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+      box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
       height: auto;
       max-width: 900px;
       width: 100%;
-      margin: 0% 2% 2%;
+      margin: 0%;
 
       // :hover {
       //     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
       //     transition: 0.5s;
       // }
-
 
       .port-bg-half {
         display: flex;
@@ -531,7 +542,7 @@
           height: 100%;
           background-color: black;
           flex-basis: 100%;
-          padding: 10px;
+          padding: 20px 10px 10px 10px;
 
           .about-profile-pic {
             text-align: center;
@@ -548,61 +559,51 @@
           }
 
           .about-profile-name {
-
+            padding-top: 10px;
             h1 {
               color: white;
               font-size: 20px;
               font-weight: 600;
               letter-spacing: 2px;
-              line-height: 1px;
               text-align: center;
 
               &#lastname {
                 color: red;
               }
             }
-
-            h2 {
-              font-size: 13px;
-              color: #f5f5f5;
-              letter-spacing: 1px;
-            }
           }
 
           .about-profile-info {
-            padding: 5px 10px 0px 20px;
+            padding: 20px 10px 0px 20px;
 
             .profile-info-header {
               border-left: 2px solid red;
 
               h1 {
                 padding-left: 10px;
-                font-size: 15px;
+                font-size: 16px;
                 font-weight: 600;
                 color: #e5e5e5;
               }
             }
 
             .profile-info-text {
-
-
               p {
-
                 color: white;
-                font-size: 10px;
+                font-size: 12px;
               }
             }
           }
 
           .about-profile-contact {
-            padding: 5px 10px 10px 20px;
+            padding: 20px 10px 10px 20px;
 
             .profile-contact-header {
               border-left: 2px solid red;
 
               h1 {
                 padding-left: 10px;
-                font-size: 15px;
+                font-size: 16px;
                 font-weight: 600;
                 color: #e5e5e5;
               }
@@ -617,19 +618,15 @@
                 font-size: 12px;
 
                 span {
-
-
                   &#icon {
                     flex-basis: 10%;
                     padding-right: 10px;
                     color: red;
-
                   }
 
                   &#text {
                     flex-basis: 50%;
                     color: white;
-
                   }
                 }
               }
@@ -637,7 +634,7 @@
           }
 
           .about-profile-social {
-            padding: 5px 10px 10px 20px;
+            padding: 20px 10px 20px 20px;
 
             .profile-social-header {
               border-left: 2px solid red;
@@ -681,7 +678,7 @@
           padding-right: 10px;
 
           .reference-container {
-            padding: 5px 10px 10px 20px;
+            padding: 10px 10px 40px 20px;
 
             .reference-header {
               border-left: 2px solid red;
@@ -691,6 +688,7 @@
                 font-size: 17px;
                 font-weight: 600;
                 color: black;
+                line-height: 1.2;
               }
             }
 
@@ -699,7 +697,6 @@
               flex-direction: row;
               align-items: center;
               flex-wrap: wrap;
-
 
               .skills-content {
                 flex-basis: 100%;
@@ -721,7 +718,6 @@
                       line-height: 4px;
                       font-size: 12px;
                       font-weight: 500;
-
                     }
 
                     div {
@@ -733,9 +729,7 @@
 
                       &.gray {
                         background: #cccccc;
-
                       }
-
                     }
                   }
                 }
@@ -743,46 +737,42 @@
             }
 
             .reference-content {
-              margin-top: -10px;
+              margin-top: 20px;
               display: flex;
               flex-direction: column;
               padding-bottom: 10px;
 
-
               .content-title {
-                flex-basis: 30%;
+                flex-basis: 100%;
                 padding-left: 10px;
 
                 p {
                   letter-spacing: 2px;
                   font-weight: 600;
                   color: red;
-                  line-height: 4px;
+
                   font-size: 13px;
 
                   &#date {
                     font-size: 9px;
-                    letter-spacing: .5px;
+                    letter-spacing: 0.5px;
                     color: black;
                     font-weight: 100;
-
                   }
                 }
-
-
               }
 
               .content-company {
-                flex-basis: 70%;
+                flex-basis: 100%;
                 padding-left: 10px;
 
                 .company-name {
+                  padding-top: 10px;
                   p {
-                    line-height: 4px;
+                    line-height: 1.4;
                     font-style: italic;
                     font-size: 13px;
                     font-weight: 500;
-
                   }
                 }
 
@@ -792,7 +782,6 @@
                     font-size: 11px;
                   }
                 }
-
               }
             }
 
