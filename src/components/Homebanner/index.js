@@ -22,7 +22,7 @@ const Homebanner = () => {
           <h1>
             <span>DEVELOPER</span>
           </h1>
-          <p>NIMUEL EIMAN NEBREJA</p>
+          <p>WORDPRESS | LARAVEL | QA ENGINEER</p>
         </BannerTitle>
       </BannerContainer>
       <Resume>

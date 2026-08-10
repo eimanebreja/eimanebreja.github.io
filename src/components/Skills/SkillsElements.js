@@ -12,7 +12,7 @@ export const SkillsArea = styled.div`
   padding-bottom: 100px;
   position: relative;
   @media only screen and (max-width: 700px) {
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 50px;
     position: relative;
   }
@@ -28,7 +28,7 @@ export const SkillsTitle = styled.div`
   @media only screen and (max-width: 700px) {
     h1 {
       letter-spacing: 2px;
-      font-size: 50px;
+      font-size: 38px;
       line-height: 1.2;
     }
   }
@@ -36,7 +36,7 @@ export const SkillsTitle = styled.div`
 export const SkillsBody = styled.div`
   padding-top: 50px;
   @media only screen and (max-width: 700px) {
-    padding-top: 30px;
+    padding-top: 20px;
   }
 `;
 export const SkillsDesc = styled.div`
@@ -44,6 +44,10 @@ export const SkillsDesc = styled.div`
     padding-top: 10px;
     font-size: 20px;
     line-height: 1.4;
+
+    @media only screen and (max-width: 700px) {
+      font-size: 16px;
+    }
   }
 `;
 export const SkillsContent = styled.div`

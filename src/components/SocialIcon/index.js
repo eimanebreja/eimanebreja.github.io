@@ -14,11 +14,6 @@ const SocialIcon = () => {
     <SidebarIcon>
       <SidebarIconList>
         <SidebarIconItem>
-          <SidebarIconLink href="/" target="_blank" rel="noreferrer">
-            <img src={FbIcon} alt="Facebook" />
-          </SidebarIconLink>
-        </SidebarIconItem>
-        <SidebarIconItem>
           <SidebarIconLink
             href="https://www.linkedin.com/in/nimuel-eiman/"
             target="_blank"

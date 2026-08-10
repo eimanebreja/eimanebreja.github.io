@@ -39,13 +39,18 @@ const Skills = () => {
                   <SkillsBaseItem>CSS3 (SCSS)</SkillsBaseItem>
                   <SkillsBaseItem>Javascript</SkillsBaseItem>
                   <SkillsBaseItem>Php</SkillsBaseItem>
+                  <SkillsBaseItem>SQL</SkillsBaseItem>
                 </SkillsBaseList>
               </SkillsBase>
               <SkillsBase>
                 <SkillsBaseTitle>METHODS & TOOLS</SkillsBaseTitle>
                 <SkillsBaseList>
-                  <SkillsBaseItem>BEM</SkillsBaseItem>
-                  <SkillsBaseItem>Accessibility testing</SkillsBaseItem>
+                  <SkillsBaseItem>Manual & Regression Testing</SkillsBaseItem>
+                  <SkillsBaseItem>Test Case Design</SkillsBaseItem>
+                  <SkillsBaseItem>Playwright Automation</SkillsBaseItem>
+                  <SkillsBaseItem>Git Version Control</SkillsBaseItem>
+                  <SkillsBaseItem>Agile / Scrum</SkillsBaseItem>
+                  <SkillsBaseItem>Accessibility Testing</SkillsBaseItem>
                 </SkillsBaseList>
               </SkillsBase>
               <SkillsBase>
@@ -55,15 +60,14 @@ const Skills = () => {
                   <SkillsBaseItem>Laravel</SkillsBaseItem>
                   <SkillsBaseItem>Jquery, Vanilla</SkillsBaseItem>
                   <SkillsBaseItem>React.JS</SkillsBaseItem>
-                  <SkillsBaseItem>Shopify</SkillsBaseItem>
+                  <SkillsBaseItem>REST APIs</SkillsBaseItem>
                 </SkillsBaseList>
               </SkillsBase>
               <SkillsBase>
                 <SkillsBaseTitle>ADDITIONAL</SkillsBaseTitle>
                 <SkillsBaseList>
+                  <SkillsBaseItem>MySQL</SkillsBaseItem>
                   <SkillsBaseItem>Photoshop, Adobe XD</SkillsBaseItem>
-                  <SkillsBaseItem>FTP</SkillsBaseItem>
-                  <SkillsBaseItem>AWS</SkillsBaseItem>
                   <SkillsBaseItem>Git</SkillsBaseItem>
                   <SkillsBaseItem>Google Tag Manager</SkillsBaseItem>
                   <SkillsBaseItem>Google Analytics</SkillsBaseItem>

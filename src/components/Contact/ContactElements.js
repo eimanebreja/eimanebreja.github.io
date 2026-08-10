@@ -28,7 +28,7 @@ export const ContactTitle = styled.div`
 
   @media only screen and (max-width: 700px) {
     h1 {
-      font-size: 50px;
+      font-size: 38px;
       line-height: 1.2;
     }
   }

@@ -16,10 +16,7 @@ import {
   NavFabarsHamSpan,
 } from "./NavbarElements";
 import ImgLogo from "../../images/logo.png";
-import LinkTitleOne from "../../images/ic_about.png";
-import LinkTitleTwo from "../../images/ic_portfolio.png";
 import LinkTitleThree from "../../images/ic_skills.png";
-import LinkTitleFour from "../../images/ic_contact.png";
 import { animateScroll as scroll } from "react-scroll";
 
 const Navbar = ({ isopen, toggle }) => {
@@ -47,9 +44,19 @@ const Navbar = ({ isopen, toggle }) => {
                     onClick={toggle}
                   >
                     <NavMenuTitle>ABOUT</NavMenuTitle>
-                    <NavMenuTitleLogo>
-                      <img src={LinkTitleOne} alt="" />
-                    </NavMenuTitleLogo>
+                  </NavMenuLink>
+                </NavMenuItem>
+                <NavMenuItem>
+                  <NavMenuLink
+                    to="experience"
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact="true"
+                    offset={-80}
+                    onClick={toggle}
+                  >
+                    <NavMenuTitle>EXPERIENCE</NavMenuTitle>
                   </NavMenuLink>
                 </NavMenuItem>
                 <NavMenuItem>
@@ -63,9 +70,6 @@ const Navbar = ({ isopen, toggle }) => {
                     onClick={toggle}
                   >
                     <NavMenuTitle>PORTFOLIO</NavMenuTitle>
-                    <NavMenuTitleLogo>
-                      <img src={LinkTitleTwo} alt="" />
-                    </NavMenuTitleLogo>
                   </NavMenuLink>
                 </NavMenuItem>
                 <NavMenuItem>
@@ -79,6 +83,19 @@ const Navbar = ({ isopen, toggle }) => {
                     onClick={toggle}
                   >
                     <NavMenuTitle>SKILLS</NavMenuTitle>
+                  </NavMenuLink>
+                </NavMenuItem>
+                <NavMenuItem>
+                  <NavMenuLink
+                    to="certification"
+                    smooth={true}
+                    duration={500}
+                    spy={true}
+                    exact="true"
+                    offset={-80}
+                    onClick={toggle}
+                  >
+                    <NavMenuTitle>CERTIFICATIONS</NavMenuTitle>
                     <NavMenuTitleLogo>
                       <img src={LinkTitleThree} alt="" />
                     </NavMenuTitleLogo>
@@ -95,9 +112,6 @@ const Navbar = ({ isopen, toggle }) => {
                     onClick={toggle}
                   >
                     <NavMenuTitle>CONTACT</NavMenuTitle>
-                    <NavMenuTitleLogo>
-                      <img src={LinkTitleFour} alt="" />
-                    </NavMenuTitleLogo>
                   </NavMenuLink>
                 </NavMenuItem>
               </NavMenuList>

@@ -48,12 +48,37 @@ export const NavMenuNav = styled.div`
 
   transform: ${({ isopen }) =>
     isopen ? "translateY(0)" : "translateY(-150px)"};
+
+  @media only screen and (max-width: 700px) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: visible;
+    background: #0a0a0a;
+    z-index: 150;
+    display: flex;
+    align-items: center;
+    // justify-content: center;
+    transform: none;
+    opacity: ${({ isopen }) => (isopen ? "1" : "0")};
+    visibility: ${({ isopen }) => (isopen ? "visible" : "hidden")};
+    transition: opacity 0.3s ease-in-out;
+  }
 `;
 
 export const NavMenuList = styled.ul`
   display: flex;
   justify-content: flex-end;
   list-style: none;
+
+  @media only screen and (max-width: 700px) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 26px;
+    padding: 0 40px;
+  }
 `;
 export const NavMenuItem = styled.li`
   padding: 0px 20px;
@@ -80,7 +105,11 @@ export const NavMenuItem = styled.li`
   }
 
   @media only screen and (max-width: 700px) {
-    padding: 0px 10px;
+    padding: 0;
+    position: relative;
+    right: 0;
+    opacity: 1;
+    transition: none;
   }
 `;
 
@@ -109,12 +138,42 @@ export const NavMenuLink = styled(LinkS)`
     transform: scaleX(0);
     transition: all 0.3s ease-in-out 0s;
   }
+
+  &.active {
+    color: #f2f2f2;
+  }
+
+  &.active::before {
+    visibility: visible;
+    transform: scaleX(1);
+  }
+
+  @media only screen and (max-width: 700px) {
+    font-size: 16px;
+    padding-left: 14px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      width: 4px;
+      height: 4px;
+      border-radius: 50%;
+      background: transparent;
+      transform: translateY(-50%);
+    }
+
+    &.active::after {
+      background: #b31c34;
+    }
+  }
 `;
 
 export const NavMenuTitle = styled.span`
   display: block;
   @media only screen and (max-width: 700px) {
-    display: none;
+    display: block;
   }
 `;
 
@@ -122,7 +181,7 @@ export const NavMenuTitleLogo = styled.div`
   display: none;
 
   @media only screen and (max-width: 700px) {
-    display: block;
+    display: none;
     img {
       width: 25px;
     }
@@ -134,6 +193,7 @@ export const NavFabars = styled.div`
   height: 45px;
   position: relative;
   padding-left: 20px;
+  z-index: 200;
 
   @media only screen and (max-width: 700px) {
     height: 50px;

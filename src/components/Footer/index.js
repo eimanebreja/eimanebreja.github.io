@@ -1,11 +1,13 @@
 import React from "react";
 import { FooterContainer, FooterArea } from "./FooterElements";
 
+const currentYear = new Date().getFullYear();
+
 const Footer = () => {
   return (
     <>
       <FooterContainer>
-        <FooterArea>NIMUEL EIMAN NEBREJA &copy; 2022</FooterArea>
+        <FooterArea>NIMUEL EIMAN NEBREJA &copy; {currentYear}</FooterArea>
       </FooterContainer>
     </>
   );

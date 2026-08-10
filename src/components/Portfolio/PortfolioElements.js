@@ -11,7 +11,7 @@ export const PortfolioArea = styled.div`
   padding-bottom: 100px;
   position: relative;
   @media only screen and (max-width: 700px) {
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 40px;
     position: relative;
   }
@@ -28,7 +28,7 @@ export const PortfolioTitle = styled.div`
   @media only screen and (max-width: 700px) {
     h1 {
       letter-spacing: 2px;
-      font-size: 50px;
+      font-size: 38px;
       line-height: 1.2;
     }
   }
@@ -45,7 +45,7 @@ export const PortfolioRow = styled.div`
   grid-template-columns: 2fr 2fr 2fr;
   grid-gap: 40px;
   @media only screen and (max-width: 700px) {
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 1fr;
     grid-gap: 20px;
   }
 `;
@@ -113,4 +113,42 @@ export const PortfolioColumnLinkIcon = styled.div`
       width: 10px;
     }
   }
+`;
+
+export const PortfolioItem = styled.div``;
+
+export const PortfolioColumnCaption = styled.div`
+  padding-top: 20px;
+`;
+
+export const PortfolioColumnTitle = styled.h3`
+  font-size: 16px;
+  font-weight: 600;
+  color: #f2f2f2;
+  margin: 0 0 6px;
+`;
+
+export const PortfolioColumnDescription = styled.p`
+  font-size: 14px;
+  color: #a8a8a8;
+  line-height: 1.5;
+  margin: 0 0 10px;
+
+  @media only screen and (max-width: 700px) {
+    margin: 0 0 8px;
+  }
+`;
+
+export const PortfolioTechStack = styled.div`
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+`;
+
+export const PortfolioTechPill = styled.span`
+  font-size: 10px;
+  color: #b31c34;
+  border: 1px solid #b31c34;
+  border-radius: 3px;
+  padding: 2px 6px;
 `;

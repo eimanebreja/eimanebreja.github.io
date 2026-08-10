@@ -26,7 +26,7 @@ export const AboutTitle = styled.div`
   @media only screen and (max-width: 700px) {
     h1 {
       letter-spacing: 2px;
-      font-size: 50px;
+      font-size: 38px;
       opacity: 0.3;
       line-height: 1.2;
     }
@@ -37,7 +37,7 @@ export const AboutBody = styled.div`
   max-width: 920px;
   margin: 0 auto;
   @media only screen and (max-width: 700px) {
-    padding-top: 40px;
+    padding-top: 20px;
   }
 `;
 export const AboutBodyP = styled.p`
