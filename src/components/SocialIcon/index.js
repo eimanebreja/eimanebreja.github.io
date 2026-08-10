@@ -5,7 +5,6 @@ import {
   SidebarIconItem,
   SidebarIconLink,
 } from "./SocialIconElements";
-import FbIcon from "../../images/ic_fb.svg";
 import LinkedInIcon from "../../images/ic_linkedin.svg";
 import GithubIcon from "../../images/ic_github.svg";
 
