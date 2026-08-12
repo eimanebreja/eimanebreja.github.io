@@ -3,7 +3,6 @@ import {
   ContactContainer,
   ContactArea,
   ContactTitle,
-  ContactAccentLine,
   ContactIntro,
   ContactBody,
   ContactEmail,
