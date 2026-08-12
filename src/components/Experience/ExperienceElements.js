@@ -119,19 +119,19 @@ export const experiences = [
     current: true,
   },
   {
-    company: "FEEMO Global Solutions Philippines",
-    role: "Team Lead | WordPress Developer",
-    dates: "Aug 2018 – Sep 2022",
-    description:
-      "Led a development team delivering WordPress and e-commerce websites for international clients, mentoring junior developers through code review.",
-    current: false,
-  },
-  {
     company: "MyBusyBee, Inc.",
     role: "WordPress Developer",
     dates: "Dec 2022 – Mar 2023",
     description:
       "Developed custom WordPress websites using Advanced Custom Fields, with browser compatibility testing and client collaboration.",
+    current: false,
+  },
+  {
+    company: "FEEMO Global Solutions Philippines",
+    role: "Team Lead | WordPress Developer",
+    dates: "Aug 2018 – Sep 2022",
+    description:
+      "Led a development team delivering WordPress and e-commerce websites for international clients, mentoring junior developers through code review.",
     current: false,
   },
 ];
