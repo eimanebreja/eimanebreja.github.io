@@ -55,10 +55,13 @@ export const ContactBody = styled.div`
   display: flex;
   flex-direction: column;
   alig-items: center;
+  max-width: 420px;
+  margin: 0 auto;
 `;
 
 export const ContactEmail = styled.a`
-  display: inline-flex;
+  display: flex;
+  justify-content: center;
   align-items: center;
   gap: 12px;
   background: #161616;
@@ -71,6 +74,7 @@ export const ContactEmail = styled.a`
   color: #f2f2f2;
   letter-spacing: 0.5px;
   transition: 0.3s ease;
+  text-align: center;
 
   &:hover {
     border-color: #b31c34;
