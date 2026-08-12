@@ -8,12 +8,12 @@ export const ContactContainer = styled.div`
 `;
 export const ContactArea = styled.div`
   padding-top: 100px;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
   position: relative;
 
   @media only screen and (max-width: 700px) {
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 80px;
     position: relative;
   }
 `;
@@ -33,53 +33,95 @@ export const ContactTitle = styled.div`
     }
   }
 `;
-export const ContactBody = styled.div`
-  padding-top: 100px;
+
+export const ContactIntro = styled.p`
+  font-size: 18px;
+  color: #a8a8a8;
+  max-width: 420px;
+  margin: 0 auto 36px;
+  padding-top: 80px;
+  text-align: center;
 
   @media only screen and (max-width: 700px) {
+    font-size: 14px;
+    max-width: 300px;
+    margin: 0 auto 24px;
     padding-top: 30px;
   }
 `;
-export const ContactEmail = styled.div`
+
+export const ContactBody = styled.div`
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  alig-items: center;
+`;
+
+export const ContactEmail = styled.a`
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: #161616;
+  border: 1px solid #2a2a2a;
+  border-radius: 6px;
+  padding: 16px 32px;
+  text-decoration: none;
   font-weight: 700;
-  font-size: 60px;
-  text-align: center;
-  letter-spacing: 2px;
-  line-height: 1.6;
+  font-size: 28px;
+  color: #f2f2f2;
+  letter-spacing: 0.5px;
+  transition: 0.3s ease;
+
+  &:hover {
+    border-color: #b31c34;
+  }
+
   @media only screen and (max-width: 700px) {
-    font-size: 20px;
-    text-align: center;
+    font-size: 16px;
+    padding: 12px 20px;
+    gap: 8px;
   }
 `;
+
+export const ContactEmailIcon = styled.span`
+  color: #b31c34;
+  font-size: 20px;
+
+  @media only screen and (max-width: 700px) {
+    font-size: 16px;
+  }
+`;
+
 export const ContactMenu = styled.div`
-  padding-top: 100px;
+  padding-top: 36px;
   max-width: 400px;
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 40px;
 
   @media only screen and (max-width: 700px) {
-    padding-top: 30px;
-    flex-direction: column;
+    padding-top: 24px;
+    gap: 24px;
   }
 `;
-export const ContactList = styled.div`
-  @media only screen and (max-width: 700px) {
-    padding-top: 10px;
-    flex-basis: 100%;
-  }
-`;
+
+export const ContactList = styled.div``;
+
 export const ContactLink = styled.a`
-  font-size: 40px;
-  color: #b31c34;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  color: #c94b4b;
   text-decoration: none;
   transition: 0.3s ease;
   position: relative;
 
   &::after {
     position: absolute;
-    bottom: -2px;
+    bottom: -4px;
     background: #b31c34;
     height: 2px;
     content: "";
@@ -88,6 +130,7 @@ export const ContactLink = styled.a`
     opacity: 0;
     transition: 0.3s ease;
   }
+
   &:hover {
     opacity: 0.8;
     transition: 0.3s ease;
@@ -97,9 +140,16 @@ export const ContactLink = styled.a`
       opacity: 1;
     }
   }
+
   @media only screen and (max-width: 700px) {
-    display: flex;
-    text-align: center;
-    font-size: 20px;
+    font-size: 14px;
+  }
+`;
+
+export const ContactLinkIcon = styled.span`
+  font-size: 14px;
+
+  @media only screen and (max-width: 700px) {
+    font-size: 12px;
   }
 `;

@@ -3,10 +3,14 @@ import {
   ContactContainer,
   ContactArea,
   ContactTitle,
+  ContactAccentLine,
+  ContactIntro,
   ContactBody,
   ContactEmail,
+  ContactEmailIcon,
   ContactMenu,
   ContactLink,
+  ContactLinkIcon,
   ContactList,
 } from "./ContactElements";
 
@@ -18,8 +22,15 @@ const Contact = () => {
           <ContactTitle>
             <h1>CONTACT</h1>
           </ContactTitle>
+          <ContactIntro>
+            Have a project in mind or an opportunity to discuss? I'd love to
+            hear from you.
+          </ContactIntro>
           <ContactBody>
-            <ContactEmail> nimuel24@gmail.com</ContactEmail>
+            <ContactEmail href="mailto:nimuel24@gmail.com">
+              <ContactEmailIcon>&#9993;</ContactEmailIcon>
+              nimuel24@gmail.com
+            </ContactEmail>
             <ContactMenu>
               <ContactList>
                 <ContactLink
@@ -27,6 +38,7 @@ const Contact = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
+                  <ContactLinkIcon>&#9670;</ContactLinkIcon>
                   Github
                 </ContactLink>
               </ContactList>
@@ -36,6 +48,7 @@ const Contact = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
+                  <ContactLinkIcon>&#9670;</ContactLinkIcon>
                   LinkedIn
                 </ContactLink>
               </ContactList>

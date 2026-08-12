@@ -83,6 +83,10 @@ export const Company = styled.h3`
   font-weight: 600;
   color: #f2f2f2;
   margin: 0;
+
+  @media only screen and (max-width: 700px) {
+    font-size: 18px;
+  }
 `;
 
 export const DateRange = styled.span`
@@ -96,6 +100,10 @@ export const Role = styled.p`
   font-weight: 500;
   color: #b0223a;
   margin: 4px 0 10px;
+
+  @media only screen and (max-width: 700px) {
+    font-size: 16px;
+  }
 `;
 
 export const Description = styled.p`
