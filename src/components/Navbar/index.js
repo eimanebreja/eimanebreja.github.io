@@ -9,14 +9,12 @@ import {
   NavMenuItem,
   NavMenuLink,
   NavMenuTitle,
-  NavMenuTitleLogo,
   NavFabars,
   NavFabarsIconSet,
   NavFabarsHam,
   NavFabarsHamSpan,
 } from "./NavbarElements";
 import ImgLogo from "../../images/logo.png";
-import LinkTitleThree from "../../images/ic_skills.png";
 import { animateScroll as scroll } from "react-scroll";
 
 const Navbar = ({ isopen, toggle }) => {
@@ -96,9 +94,6 @@ const Navbar = ({ isopen, toggle }) => {
                     onClick={toggle}
                   >
                     <NavMenuTitle>CERTIFICATIONS</NavMenuTitle>
-                    <NavMenuTitleLogo>
-                      <img src={LinkTitleThree} alt="" />
-                    </NavMenuTitleLogo>
                   </NavMenuLink>
                 </NavMenuItem>
                 <NavMenuItem>

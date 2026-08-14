@@ -10,6 +10,7 @@ import {
   AboutStatCard,
   AboutStatNumber,
   AboutStatLabel,
+  AboutInfoText,
 } from "./AboutElements";
 
 const stats = [
@@ -29,10 +30,12 @@ const About = () => {
             <AboutBody>
               <AboutTextCol>
                 <AboutBodyP>
-                  Hi, I'm <span>Nimuel</span>, a <span>WordPress Developer</span>,{" "}
-                  <span>QA Engineer</span>, and <span>Laravel Developer</span> with
-                  over 8 years of experience building and testing web
-                  applications.
+                  <AboutInfoText>
+                    Hi, I'm <span>Nimuel</span>, a <span>WordPress Developer</span>,{" "}
+                    <span>QA Engineer</span>, and <span>Laravel Developer</span> with
+                    over 8 years of experience building and testing web
+                    applications.
+                  </AboutInfoText>   
                 </AboutBodyP>
                 <AboutBodyP>
                   I specialize in custom WordPress theme and plugin development,

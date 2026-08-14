@@ -1,15 +1,16 @@
 import styled from "styled-components";
+import { Link as LinkS } from "react-scroll";
 
 export const Banner = styled.div`
   padding-top: 100px;
-  height: 800px;
+  min-height: 800px;
   position: relative;
   background-color: #000;
 
   @media only screen and (max-width: 700px) {
     padding-top: 100px;
     padding-bottom: 50px;
-    height: auto;
+    min-height: auto;
   }
 `;
 
@@ -21,6 +22,7 @@ export const BannerContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   @media only screen and (max-width: 700px) {
     flex-wrap: wrap;
   }
@@ -33,17 +35,23 @@ export const BannerImg = styled.div`
     display: block;
     width: 600px;
   }
+
   @media only screen and (max-width: 700px) {
     flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+
     img {
       width: 100%;
+      max-width: 260px;
     }
   }
 `;
 
 export const BannerTitle = styled.div`
-  margin-left: -100px;
+  margin-left: -30px;
   flex-basis: 50%;
+
   h1 {
     font-size: 70px;
     line-height: 1.2;
@@ -51,21 +59,17 @@ export const BannerTitle = styled.div`
     font-weight: 700;
     transition: 0.5s linear;
     display: inline-block;
+    margin: 0;
+
     span {
       font-size: 60px;
       display: block;
       letter-spacing: 7px;
     }
   }
-  p {
-    padding-top: 20px;
-    line-height: 1.2;
-    font-size: 18px;
-    font-weight: 700;
-    color: #b31c34;
-  }
+
   @media only screen and (max-width: 700px) {
-    padding-top: 30px;
+    padding-top: 24px;
     margin-left: 0px;
     flex-basis: 100%;
     text-align: center;
@@ -73,27 +77,68 @@ export const BannerTitle = styled.div`
     h1 {
       text-align: center;
       font-size: 40px;
+
       span {
         font-size: 40px;
       }
     }
   }
 `;
-export const Resume = styled.div`
-  position: absolute;
-  bottom: 40px;
-  right: 40px;
+
+export const BannerEyebrow = styled.p`
+  color: #c94b4b;
+  letter-spacing: 2px;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 0 0 8px;
 
   @media only screen and (max-width: 700px) {
-    padding-top: 40px;
-    position: static;
-    bottom: 0px;
-    right: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-size: 12px;
   }
 `;
+
+export const BannerRole = styled.p`
+  padding-top: 20px;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 700;
+  color: #b31c34;
+  margin: 20px 0 0;
+
+  @media only screen and (max-width: 700px) {
+    font-size: 15px;
+  }
+`;
+
+export const BannerTagline = styled.p`
+  font-size: 15px;
+  color: #a8a8a8;
+  line-height: 1.6;
+  max-width: 380px;
+  margin: 12px 0 0;
+
+  @media only screen and (max-width: 700px) {
+    font-size: 13px;
+    max-width: 300px;
+    margin: 10px auto 0;
+  }
+`;
+
+export const CtaRow = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-top: 32px;
+
+  @media only screen and (max-width: 700px) {
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+    padding-top: 24px;
+  }
+`;
+
 export const ResumeLinks = styled.a`
   text-decoration: none;
   background-color: transparent;
@@ -111,28 +156,42 @@ export const ResumeLinks = styled.a`
   padding: 0.85em 2em 0.83em;
   cursor: pointer;
   position: relative;
-
-  &::after {
-    content: "";
-    position: absolute;
-    left: -15px;
-    top: 21px;
-    bottom: 0;
-    width: 30px;
-    height: 1px;
-    background-color: rgba(238, 232, 255, 0.57);
-    transition: transform 0.3s ease, opacity 0.3s ease;
-  }
+  text-align: center;
 
   &:hover {
     background-color: #e6e0f8;
     color: #000;
-    &::after {
-      transform: translate3d(20px, 0, 0);
-      opacity: 0;
-    }
   }
+
   @media only screen and (max-width: 700px) {
-    padding: 0.85em 4em 0.83em;
+    width: 100%;
+    padding: 0.9em 1em;
+  }
+`;
+
+export const TalkLink = styled(LinkS)`
+  text-decoration: none;
+  background-color: #b31c34;
+  color: #fff;
+  border: 1px solid #b31c34;
+  transition: background-color 0.3s ease, opacity 0.3s ease;
+  text-transform: uppercase;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 0.68182rem;
+  display: inline-block;
+  vertical-align: top;
+  box-sizing: border-box;
+  padding: 0.85em 2em 0.83em;
+  cursor: pointer;
+  text-align: center;
+
+  &:hover {
+    opacity: 0.85;
+  }
+
+  @media only screen and (max-width: 700px) {
+    width: 100%;
+    padding: 0.9em 1em;
   }
 `;

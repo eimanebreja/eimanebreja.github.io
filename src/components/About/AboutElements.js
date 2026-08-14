@@ -54,7 +54,7 @@ export const AboutTextCol = styled.div`
   flex: 2;
 `;
 
-export const AboutBodyP = styled.p`
+export const AboutBodyP = styled.div`
   text-align: left;
   font-size: 17px;
   line-height: 1.8;
@@ -76,6 +76,11 @@ export const AboutBodyP = styled.p`
     line-height: 1.7;
   }
 `;
+
+export const AboutInfoText  = styled.p`
+  color: white;
+`;
+
 
 export const AboutStatsCol = styled.div`
   flex: 1;
