@@ -107,3 +107,28 @@ export const CertificationId = styled.p`
   margin: 0;
 `;
 
+export const CertificationLink = styled.a`
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 8px;
+  padding: 4px 6px;
+  font-size: 0.6rem;
+  font-weight: 600;
+  color: #b31c34;
+  border: 1px solid #b31c34;
+  text-decoration: none;
+  width: fit-content;
+  transition:
+    background 0.2s ease,
+    transform 0.2s ease;
+
+  &:hover {
+    transform: translateY(-1px);
+  }
+
+  svg {
+    width: 14px;
+    height: 14px;
+  }
+`;
