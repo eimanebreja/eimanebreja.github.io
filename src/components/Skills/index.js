@@ -36,7 +36,7 @@ const Skills = () => {
                 <SkillsBaseTitle>LANGUAGES</SkillsBaseTitle>
                 <SkillsBaseList>
                   <SkillsBaseItem>HTML5</SkillsBaseItem>
-                  <SkillsBaseItem>CSS3 (SCSS)</SkillsBaseItem>
+                  <SkillsBaseItem>CSS3 (SASS)</SkillsBaseItem>
                   <SkillsBaseItem>Javascript</SkillsBaseItem>
                   <SkillsBaseItem>Php</SkillsBaseItem>
                   <SkillsBaseItem>SQL</SkillsBaseItem>
@@ -47,10 +47,10 @@ const Skills = () => {
                 <SkillsBaseList>
                   <SkillsBaseItem>Manual & Regression Testing</SkillsBaseItem>
                   <SkillsBaseItem>Test Case Design</SkillsBaseItem>
+                  <SkillsBaseItem>Bug Reporting & Validation</SkillsBaseItem>
                   <SkillsBaseItem>Playwright Automation</SkillsBaseItem>
                   <SkillsBaseItem>Git Version Control</SkillsBaseItem>
                   <SkillsBaseItem>Agile / Scrum</SkillsBaseItem>
-                  <SkillsBaseItem>Accessibility Testing</SkillsBaseItem>
                 </SkillsBaseList>
               </SkillsBase>
               <SkillsBase>
@@ -64,13 +64,37 @@ const Skills = () => {
                 </SkillsBaseList>
               </SkillsBase>
               <SkillsBase>
+                <SkillsBaseTitle>WORDPRESS ECOSYSTEM</SkillsBaseTitle>
+                <SkillsBaseList>
+                  <SkillsBaseItem>Elementor, ACF</SkillsBaseItem>
+                  <SkillsBaseItem>WooCommerce</SkillsBaseItem>
+                  <SkillsBaseItem>
+                    Gravity Forms, WPForms, Contact Form 7
+                  </SkillsBaseItem>
+                  <SkillsBaseItem>Yoast SEO, Rank Math, AIOSEO</SkillsBaseItem>
+                  <SkillsBaseItem>
+                    W3 Total Cache, LiteSpeed Cache
+                  </SkillsBaseItem>
+                  <SkillsBaseItem>Wordfence, WP Mail SMTP</SkillsBaseItem>
+                  <SkillsBaseItem>SearchWP, Google Site Kit</SkillsBaseItem>
+                </SkillsBaseList>
+              </SkillsBase>
+              <SkillsBase>
                 <SkillsBaseTitle>ADDITIONAL</SkillsBaseTitle>
                 <SkillsBaseList>
                   <SkillsBaseItem>MySQL</SkillsBaseItem>
-                  <SkillsBaseItem>Photoshop, Adobe XD</SkillsBaseItem>
-                  <SkillsBaseItem>Git</SkillsBaseItem>
-                  <SkillsBaseItem>Google Tag Manager</SkillsBaseItem>
-                  <SkillsBaseItem>Google Analytics</SkillsBaseItem>
+                  <SkillsBaseItem>Figma, Adobe XD</SkillsBaseItem>
+                  <SkillsBaseItem>Chrome DevTools</SkillsBaseItem>
+                  <SkillsBaseItem>
+                    Google Tag Manager, Google Analytics
+                  </SkillsBaseItem>
+                  <SkillsBaseItem>
+                    GoHighLevel (CRM & Marketing Automation)
+                  </SkillsBaseItem>
+                  <SkillsBaseItem>
+                    SiteGround, Hostinger, Bluehost, GoDaddy, Namecheap,
+                    Cloudflare
+                  </SkillsBaseItem>
                   <SkillsBaseItem>Performance Optimisation</SkillsBaseItem>
                 </SkillsBaseList>
               </SkillsBase>

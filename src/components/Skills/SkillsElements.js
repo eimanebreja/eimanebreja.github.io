@@ -52,30 +52,34 @@ export const SkillsDesc = styled.div`
 `;
 export const SkillsContent = styled.div`
   margin-top: 40px;
+  border-top: 2px solid #b31c34;
   display: flex;
-  justify-content: space-between;
   background-color: #323232;
   padding: 30px 20px;
+  flex-wrap: wrap;
+  gap: 20px;
 
   @media only screen and (max-width: 700px) {
     padding: 0px 20px 30px;
-    flex-wrap: wrap;
+    gap: 0px;
   }
 `;
 export const SkillsBase = styled.div`
+  flex-basis: 30%;
   @media only screen and (max-width: 700px) {
+    flex-basis: 100%;
     padding-top: 30px;
   }
 `;
 export const SkillsBaseTitle = styled.div`
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
 `;
 export const SkillsBaseList = styled.ul`
   padding-top: 5px;
   list-style: none;
   font-weight: 300;
-  font-size: 16px;
+  font-size: 14px;
 `;
 export const SkillsBaseItem = styled.li`
   position: relative;
@@ -89,6 +93,8 @@ export const SkillsBaseItem = styled.li`
     width: 18px;
     height: 1px;
     background-color: rgba(238, 232, 255, 0.57);
-    transition: transform 0.3s ease, opacity 0.3s ease;
+    transition:
+      transform 0.3s ease,
+      opacity 0.3s ease;
   }
 `;
