@@ -20,6 +20,7 @@ const Skills = () => {
           <SkillsTitle>
             <h1>SKILLS</h1>
           </SkillsTitle>
+
           <SkillsBody>
             <SkillsDesc>
               <p>
@@ -27,21 +28,23 @@ const Skills = () => {
                 client-side solutions that users love.
               </p>
               <p>
-                Here is a selection of relevant technologies that I enjoy
-                working with with:
+                Here is a selection of relevant technologies and tools that I
+                enjoy working with:
               </p>
             </SkillsDesc>
+
             <SkillsContent>
               <SkillsBase>
                 <SkillsBaseTitle>LANGUAGES</SkillsBaseTitle>
                 <SkillsBaseList>
                   <SkillsBaseItem>HTML5</SkillsBaseItem>
-                  <SkillsBaseItem>CSS3 (SASS)</SkillsBaseItem>
-                  <SkillsBaseItem>Javascript</SkillsBaseItem>
-                  <SkillsBaseItem>Php</SkillsBaseItem>
+                  <SkillsBaseItem>CSS3 / SCSS (SASS)</SkillsBaseItem>
+                  <SkillsBaseItem>JavaScript</SkillsBaseItem>
+                  <SkillsBaseItem>PHP</SkillsBaseItem>
                   <SkillsBaseItem>SQL</SkillsBaseItem>
                 </SkillsBaseList>
               </SkillsBase>
+
               <SkillsBase>
                 <SkillsBaseTitle>METHODS & TOOLS</SkillsBaseTitle>
                 <SkillsBaseList>
@@ -51,23 +54,40 @@ const Skills = () => {
                   <SkillsBaseItem>Playwright Automation</SkillsBaseItem>
                   <SkillsBaseItem>Git Version Control</SkillsBaseItem>
                   <SkillsBaseItem>Agile / Scrum</SkillsBaseItem>
+                  <SkillsBaseItem>BEM / CSS Architecture</SkillsBaseItem>
                 </SkillsBaseList>
               </SkillsBase>
+
               <SkillsBase>
                 <SkillsBaseTitle>FRAMEWORKS & LIBRARIES</SkillsBaseTitle>
                 <SkillsBaseList>
-                  <SkillsBaseItem>Wordpress</SkillsBaseItem>
+                  <SkillsBaseItem>WordPress</SkillsBaseItem>
                   <SkillsBaseItem>Laravel</SkillsBaseItem>
-                  <SkillsBaseItem>Jquery, Vanilla</SkillsBaseItem>
-                  <SkillsBaseItem>React.JS</SkillsBaseItem>
+                  <SkillsBaseItem>React.js</SkillsBaseItem>
+                  <SkillsBaseItem>jQuery / Vanilla JavaScript</SkillsBaseItem>
                   <SkillsBaseItem>REST APIs</SkillsBaseItem>
                 </SkillsBaseList>
               </SkillsBase>
+
+              <SkillsBase>
+                <SkillsBaseTitle>WORDPRESS DEVELOPMENT</SkillsBaseTitle>
+                <SkillsBaseList>
+                  <SkillsBaseItem>
+                    Custom WordPress Theme Development
+                  </SkillsBaseItem>
+                  <SkillsBaseItem>Custom Plugin Development</SkillsBaseItem>
+                  <SkillsBaseItem>Elementor / Elementor Pro</SkillsBaseItem>
+                  <SkillsBaseItem>WPBakery / Gutenberg</SkillsBaseItem>
+                  <SkillsBaseItem>Advanced Custom Fields (ACF)</SkillsBaseItem>
+                  <SkillsBaseItem>Custom Post Types</SkillsBaseItem>
+                  <SkillsBaseItem>WordPress Multisite</SkillsBaseItem>
+                  <SkillsBaseItem>WooCommerce</SkillsBaseItem>
+                </SkillsBaseList>
+              </SkillsBase>
+
               <SkillsBase>
                 <SkillsBaseTitle>WORDPRESS ECOSYSTEM</SkillsBaseTitle>
                 <SkillsBaseList>
-                  <SkillsBaseItem>Elementor, ACF</SkillsBaseItem>
-                  <SkillsBaseItem>WooCommerce</SkillsBaseItem>
                   <SkillsBaseItem>
                     Gravity Forms, WPForms, Contact Form 7
                   </SkillsBaseItem>
@@ -79,6 +99,7 @@ const Skills = () => {
                   <SkillsBaseItem>SearchWP, Google Site Kit</SkillsBaseItem>
                 </SkillsBaseList>
               </SkillsBase>
+
               <SkillsBase>
                 <SkillsBaseTitle>ADDITIONAL</SkillsBaseTitle>
                 <SkillsBaseList>
@@ -86,11 +107,12 @@ const Skills = () => {
                   <SkillsBaseItem>Figma, Adobe XD</SkillsBaseItem>
                   <SkillsBaseItem>Chrome DevTools</SkillsBaseItem>
                   <SkillsBaseItem>
-                    Google Tag Manager, Google Analytics
+                    Google Tag Manager, Google Analytics, Google Search Console
                   </SkillsBaseItem>
                   <SkillsBaseItem>
                     GoHighLevel (CRM & Marketing Automation)
                   </SkillsBaseItem>
+                  <SkillsBaseItem>Stripe, PayPal, PayMongo</SkillsBaseItem>
                   <SkillsBaseItem>
                     SiteGround, Hostinger, Bluehost, GoDaddy, Namecheap,
                     Cloudflare

@@ -15,7 +15,7 @@ export const Banner = styled.div`
 `;
 
 export const BannerContainer = styled.div`
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -108,6 +108,7 @@ export const BannerRole = styled.p`
 
   @media only screen and (max-width: 700px) {
     font-size: 15px;
+    line-height: 1.5;
   }
 `;
 
@@ -145,7 +146,9 @@ export const ResumeLinks = styled.a`
   color: #e6e4ec;
   overflow: visible;
   border: 1px solid rgba(238, 232, 255, 0.57);
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 2px;
@@ -174,7 +177,9 @@ export const TalkLink = styled(LinkS)`
   background-color: #b31c34;
   color: #fff;
   border: 1px solid #b31c34;
-  transition: background-color 0.3s ease, opacity 0.3s ease;
+  transition:
+    background-color 0.3s ease,
+    opacity 0.3s ease;
   text-transform: uppercase;
   font-weight: 400;
   letter-spacing: 2px;

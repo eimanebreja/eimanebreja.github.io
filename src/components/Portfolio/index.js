@@ -24,6 +24,7 @@ import PortImgMytown from "../../images/mytown.png";
 import PortImgPasito from "../../images/pasito.png";
 import PortImgKeskin from "../../images/keskin.png";
 import PortImgOkugawa from "../../images/okugawa.png";
+import PortImgIdom from "../../images/idom.png";
 
 const Portfolio = () => {
   return (
@@ -35,6 +36,35 @@ const Portfolio = () => {
           </PortfolioTitle>
           <PortfolioBody>
             <PortfolioRow>
+              <PortfolioItem>
+                <PortfolioColumn>
+                  <PortfolioColumnImg>
+                    <img src={PortImgIdom} alt="Logo" />
+                  </PortfolioColumnImg>
+                  <PortfolioColumnLink
+                    href="https://idom-inc.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <PortfolioColumnLinkIcon>
+                      <img src={IconLink} alt="" />
+                    </PortfolioColumnLinkIcon>
+                  </PortfolioColumnLink>
+                </PortfolioColumn>
+                <PortfolioColumnCaption>
+                  <PortfolioColumnTitle>IDOM Inc</PortfolioColumnTitle>
+                  <PortfolioColumnDescription>
+                    Custom WordPress corporate website for a Japanese automotive
+                    company, featuring a custom theme and Japanese/English
+                    language support.
+                  </PortfolioColumnDescription>
+                  <PortfolioTechStack>
+                    <PortfolioTechPill>WordPress</PortfolioTechPill>
+                    <PortfolioTechPill>ACF</PortfolioTechPill>
+                    <PortfolioTechPill>Multisite</PortfolioTechPill>
+                  </PortfolioTechStack>
+                </PortfolioColumnCaption>
+              </PortfolioItem>
               <PortfolioItem>
                 <PortfolioColumn>
                   <PortfolioColumnImg>
@@ -53,14 +83,41 @@ const Portfolio = () => {
                 <PortfolioColumnCaption>
                   <PortfolioColumnTitle>MyTown PH</PortfolioColumnTitle>
                   <PortfolioColumnDescription>
-                    Custom WordPress site for the Philippine hotel market,
-                    with Multisite and HubSpot integration.
+                    Custom WordPress site for the Philippine hotel market, with
+                    Multisite and HubSpot integration.
                   </PortfolioColumnDescription>
                   <PortfolioTechStack>
                     <PortfolioTechPill>WordPress</PortfolioTechPill>
                     <PortfolioTechPill>ACF</PortfolioTechPill>
                     <PortfolioTechPill>HubSpot</PortfolioTechPill>
                     <PortfolioTechPill>Multisite</PortfolioTechPill>
+                  </PortfolioTechStack>
+                </PortfolioColumnCaption>
+              </PortfolioItem>
+              <PortfolioItem>
+                <PortfolioColumn>
+                  <PortfolioColumnImg>
+                    <img src={PortImgKeskin} alt="Kes Kin" />
+                  </PortfolioColumnImg>
+                  <PortfolioColumnLink
+                    href="https://kes-kin.com/"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    <PortfolioColumnLinkIcon>
+                      <img src={IconLink} alt="" />
+                    </PortfolioColumnLinkIcon>
+                  </PortfolioColumnLink>
+                </PortfolioColumn>
+                <PortfolioColumnCaption>
+                  <PortfolioColumnTitle>KES-KIN</PortfolioColumnTitle>
+                  <PortfolioColumnDescription>
+                    Custom WordPress site with WooCommerce integration, built
+                    for a single-product e-commerce experience.
+                  </PortfolioColumnDescription>
+                  <PortfolioTechStack>
+                    <PortfolioTechPill>WordPress</PortfolioTechPill>
+                    <PortfolioTechPill>WooCommerce</PortfolioTechPill>
                   </PortfolioTechStack>
                 </PortfolioColumnCaption>
               </PortfolioItem>
@@ -82,8 +139,8 @@ const Portfolio = () => {
                 <PortfolioColumnCaption>
                   <PortfolioColumnTitle>Sriracha.jp</PortfolioColumnTitle>
                   <PortfolioColumnDescription>
-                    Custom WordPress site for a Japanese-market client,
-                    built as a single-page application.
+                    Custom WordPress site for a Japanese-market client, built as
+                    a single-page application.
                   </PortfolioColumnDescription>
                   <PortfolioTechStack>
                     <PortfolioTechPill>WordPress</PortfolioTechPill>
@@ -110,8 +167,8 @@ const Portfolio = () => {
                 <PortfolioColumnCaption>
                   <PortfolioColumnTitle>Okugawaseitai</PortfolioColumnTitle>
                   <PortfolioColumnDescription>
-                    Custom WordPress site for a Japanese-market client,
-                    built as a single-page application.
+                    Custom WordPress site for a Japanese-market client, built as
+                    a single-page application.
                   </PortfolioColumnDescription>
                   <PortfolioTechStack>
                     <PortfolioTechPill>WordPress</PortfolioTechPill>
@@ -137,63 +194,8 @@ const Portfolio = () => {
                 <PortfolioColumnCaption>
                   <PortfolioColumnTitle>Pasito.jp</PortfolioColumnTitle>
                   <PortfolioColumnDescription>
-                    Custom WordPress site for a Japanese-market client,
-                    built as a single-page application with Contact Form 7.
-                  </PortfolioColumnDescription>
-                  <PortfolioTechStack>
-                    <PortfolioTechPill>WordPress</PortfolioTechPill>
-                    <PortfolioTechPill>Contact Form 7</PortfolioTechPill>
-                    <PortfolioTechPill>SPA</PortfolioTechPill>
-                  </PortfolioTechStack>
-                </PortfolioColumnCaption>
-              </PortfolioItem>
-              <PortfolioItem>
-                <PortfolioColumn>
-                  <PortfolioColumnImg>
-                    <img src={PortImgKeskin} alt="Kes Kin" />
-                  </PortfolioColumnImg>
-                  <PortfolioColumnLink
-                    href="https://kes-kin.com/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <PortfolioColumnLinkIcon>
-                      <img src={IconLink} alt="" />
-                    </PortfolioColumnLinkIcon>
-                  </PortfolioColumnLink>
-                </PortfolioColumn>
-                <PortfolioColumnCaption>
-                  <PortfolioColumnTitle>KES-KIN</PortfolioColumnTitle>
-                  <PortfolioColumnDescription>
-                    Custom WordPress site with WooCommerce integration,
-                    built for a single-product e-commerce experience.
-                  </PortfolioColumnDescription>
-                  <PortfolioTechStack>
-                    <PortfolioTechPill>WordPress</PortfolioTechPill>
-                    <PortfolioTechPill>WooCommerce</PortfolioTechPill>
-                  </PortfolioTechStack>
-                </PortfolioColumnCaption>
-              </PortfolioItem>
-              <PortfolioItem>
-                <PortfolioColumn>
-                  <PortfolioColumnImg>
-                    <img src={PortImgLetscan} alt="Logo" />
-                  </PortfolioColumnImg>
-                  <PortfolioColumnLink
-                    href="https://letscan.jp/"
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    <PortfolioColumnLinkIcon>
-                      <img src={IconLink} alt="" />
-                    </PortfolioColumnLinkIcon>
-                  </PortfolioColumnLink>
-                </PortfolioColumn>
-                <PortfolioColumnCaption>
-                  <PortfolioColumnTitle>LetScan</PortfolioColumnTitle>
-                  <PortfolioColumnDescription>
-                    Custom WordPress site for a Japanese-market client,
-                    built as a single-page application with Contact Form 7.
+                    Custom WordPress site for a Japanese-market client, built as
+                    a single-page application with Contact Form 7.
                   </PortfolioColumnDescription>
                   <PortfolioTechStack>
                     <PortfolioTechPill>WordPress</PortfolioTechPill>

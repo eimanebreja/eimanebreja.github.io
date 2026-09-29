@@ -27,7 +27,7 @@ const Homebanner = () => {
           <h1>
             <span>DEVELOPER</span>
           </h1>
-          <BannerRole>WORDPRESS | LARAVEL | QA ENGINEER</BannerRole>
+          <BannerRole>WORDPRESS | LARAVEL | QA ENGINEER | CSM</BannerRole>
           <BannerTagline>
             Building and testing reliable web applications for 8+ years.
           </BannerTagline>
@@ -35,12 +35,7 @@ const Homebanner = () => {
             <ResumeLinks href={myResume} download>
               My Resume
             </ResumeLinks>
-            <TalkLink
-              to="contact"
-              smooth={true}
-              duration={500}
-              offset={-80}
-            >
+            <TalkLink to="contact" smooth={true} duration={500} offset={-80}>
               Let's Talk
             </TalkLink>
           </CtaRow>
