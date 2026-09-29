@@ -19,7 +19,6 @@ import {
 
 import IconLink from "../../images/ic_link.png";
 import PortImgShrine from "../../images/shrine.png";
-import PortImgLetscan from "../../images/letscan.png";
 import PortImgMytown from "../../images/mytown.png";
 import PortImgPasito from "../../images/pasito.png";
 import PortImgKeskin from "../../images/keskin.png";
